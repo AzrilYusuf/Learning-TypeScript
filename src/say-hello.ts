@@ -1,3 +1,5 @@
-export function sayHello(name: String): String {
-    return `Hello ${name}`;
-}
+const sayHello = (name: String): String => {
+  return `Hello ${name}`;
+};
+
+export default sayHello;
